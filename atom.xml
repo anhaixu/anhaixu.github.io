@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-06-14T09:47:59.624Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Haisyu An</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C LAGUAGE</title>
+    <link href="http://yoursite.com/2019/06/14/first/"/>
+    <id>http://yoursite.com/2019/06/14/first/</id>
+    <published>2019-06-14T09:47:59.624Z</published>
+    <updated>2019-06-14T09:47:59.624Z</updated>
+    
+    <content type="html"><![CDATA[<p>#include &lt;stdio.h&gt;<br>int main() {<br>    printf(“hello world\n”);<br>    return 0;<br>}</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;#include &amp;lt;stdio.h&amp;gt;&lt;br&gt;int main() {&lt;br&gt;    printf(“hello world\n”);&lt;br&gt;    return 0;&lt;br&gt;}&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="C" scheme="http://yoursite.com/categories/C/"/>
+    
+    
+      <category term="c" scheme="http://yoursite.com/tags/c/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/06/14/hello-world/"/>
+    <id>http://yoursite.com/2019/06/14/hello-world/</id>
+    <published>2019-06-14T09:36:12.519Z</published>
+    <updated>2019-06-14T09:36:12.519Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+      <category term="awk" scheme="http://yoursite.com/tags/awk/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux三剑客之grep</title>
+    <link href="http://yoursite.com/2019/06/14/Linux%E4%B8%89%E5%89%91%E5%AE%A2%E4%B9%8Bgrep/"/>
+    <id>http://yoursite.com/2019/06/14/Linux三剑客之grep/</id>
+    <published>2019-06-14T09:23:10.000Z</published>
+    <updated>2019-06-14T09:35:46.774Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p>介绍</p><p><strong>grep</strong> (<em>Global Regular Expression Print</em>) 是Linux中一种强大的文本搜索工具，它能使用正则表达式搜索文本，并把匹配的行打印出来。</p></li><li><p>用法</p><p> <strong><em>grep [options] PATTERN [file…]</em></strong></p><p> <strong><em>grep [options] [-e PATTERN | -f FILE] [file…]</em></strong></p></li></ol><ol start="3"><li><p>常用参数说明</p><pre><code>－f：输出多个文件之间相同的行。－c：只输出匹配行的计数。－i：不区分大小写。－h：查询多文件时不显示文件名。－l：查询多文件时只输出包含匹配字符的文件名。－L：与 -l 相反。－n：显示匹配行及行号。－s：不显示不存在或无匹配文本的错误信息。－v：显示不包含匹配文本的所有行。－w：精确匹配一个完整的单词。</code></pre></li><li><p>实例</p><pre><code>grep &apos;test&apos; test.txt        # 输出 test.txt 文件中包含 test 字符串的所有行grep -r &apos;test&apos; *        # 输出当前目录及其子目录下匹配 test 字符串的所有行grep -d skip *         # 只输出当前目录下所有文件中匹配 test 字符串的所有行grep -f test1.txt test2.txt        #  输出 test1.txt、 test2.txt 文件中相同的行</code></pre></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;介绍&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;grep&lt;/strong&gt; (&lt;em&gt;Global Regular Expression Print&lt;/em&gt;) 是Linux中一种强大的文本搜索工具，它能使用正则表达式搜索文本，并把匹配的行打印出来。&lt;/p&gt;
+&lt;/li
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="grep" scheme="http://yoursite.com/tags/grep/"/>
+    
+  </entry>
+  
+</feed>
